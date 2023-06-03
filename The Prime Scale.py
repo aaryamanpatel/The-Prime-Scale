@@ -1,6 +1,8 @@
 #this is a code which tests whether a number is a prime or not much faster than a conventional method
 #I'll explain what is happening at each step
 
+from numpy import *
+
 n=input("Enter number:") #enter a number that you would like to prime test
 n=int(n)
 sqr=sqrt(n) #reducing the number of values to check against. If the number has a factor, it will have to be less than its square-root
